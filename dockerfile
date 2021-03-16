@@ -2,7 +2,7 @@
 FROM centos:7
 # Set version label
 LABEL maintainer="github.com/Dofamin"
-LABEL image=Jackett-Jackett
+LABEL image=Jackett
 LABEL OS=Centos7
 # Update system packages:
 RUN yum -y update > /dev/null 2>&1;\
