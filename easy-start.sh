@@ -10,7 +10,7 @@ docker create \
   -p 9117:9117/tcp \
   -p 9117:9117/udp \
   -e AUTO_UPDATE=true \
-  -v /srv/Jackett/container-image-root/:/home/Jackett/Jackett/\
+  -v /srv/Jackett/container-image-root/:/home/Jackett/.config/Jackett/\
   --restart unless-stopped \
   jackett:latest
 
